@@ -1,0 +1,19 @@
+{
+  "name": "bananarchy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run app:test",
+    "app:test": "concurrently \"nodemon --max-old-space-size=4096 --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1"
+  }
+}
