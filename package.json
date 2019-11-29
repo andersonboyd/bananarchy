@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "npm run app:test",
-    "app:test": "concurrently \"nodemon --max-old-space-size=4096 --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd client && npm run test",
+    "app:test": "npm run client",
+    "client": "cd client && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
