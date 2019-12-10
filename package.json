@@ -4,17 +4,26 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "npm run app:test",
-    "app:test": "npm run client",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node scripts/itemDB.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.0",
     "concurrently": "^5.0.0",
     "express": "^4.17.1",
+    "if-env": "^1.0.4",
     "mongoose": "^5.7.14"
   }
 }

@@ -8,9 +8,10 @@ module.exports = {
             .catch(err => res.status(422).json(err))
     },
     findAll: function(req, res){
+        console.log("hit find all control");
         db.Items
             .find({})
-            .sort({ date: -1})
+            .sort({ img: -1 })
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err))
     }

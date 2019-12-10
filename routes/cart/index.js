@@ -3,4 +3,4 @@ const cartRoute = require("./cart");
 
 router.use("/", cartRoute);
 
-module.export = router;
+module.exports = router;

@@ -3,4 +3,4 @@ const itemsRoute = require("./items");
 
 router.use("/", itemsRoute);
 
-module.export = router;
+module.exports = router;

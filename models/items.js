@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 const itemSchema = new Schema({
     name: { type: String, required: true },
     size: { type: String, required: true },
+    color: String,
     img: String,
     cost: { type: Number, required: true },
     inCart: { type: Boolean, default: false}

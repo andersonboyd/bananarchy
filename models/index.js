@@ -1,4 +1,4 @@
-//module.exports = {
-//    Cart: require("./cart");
-//    Product: require("./product");
-//}
+module.exports = {
+   Cart: require("./cart"),
+   Items: require("./items")
+}
