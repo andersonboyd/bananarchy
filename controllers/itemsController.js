@@ -11,7 +11,7 @@ module.exports = {
         console.log("hit find all control");
         db.Items
             .find({})
-            .sort({ img: -1 })
+            .sort({ cost: 1 })
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err))
     }
