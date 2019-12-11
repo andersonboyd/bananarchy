@@ -9,7 +9,9 @@ class Header extends Component {
         <div className="header">
             <Jumbotron fluid>
                 <div className="logo-head">
-                    <img src={logo} alt="banana-logo" />
+                    <div className="image-div">
+                        <img src={logo} alt="banana-logo" />
+                    </div>
                     <div className="info-head">
                         <h1>Bananarchy</h1>
                         <h2>Revolutionary desserts</h2>

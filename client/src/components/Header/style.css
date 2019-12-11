@@ -2,6 +2,7 @@
     /* border-radius: 0.3em; */
     text-align: center;
     font-family: 'Rock Salt', cursive;
+    background-color: #FFFF4D;
 }
 
 .logo-head {
@@ -12,6 +13,22 @@
     margin: 0 auto;
     position: relative;
     right: 70px;
+}
+
+.image-div {
+    border: 1px wavy black;
+    border-radius: 100%;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 15px;
+    top: 20px;
+}
+.image-div > img {
+    position: relative;
+    top: 30px;
+    right: 5px;
 }
 
 .info-head{
@@ -39,6 +56,18 @@
     }
     .logo-head{
         width: 50%;
+    }
+    .image-div {
+        border-radius: 100%;
+        background-color: white;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        right: 15px;
+        margin-bottom: 35px;
+    }
+    .image-div > img {
+        position: relative;
     }
     .info-head h1{
         font-size: 2.5rem;
