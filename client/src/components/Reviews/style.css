@@ -1,0 +1,30 @@
+.reviews {
+    margin-bottom: 20px;
+}
+
+.quote {
+    width: 100%;
+}
+
+@media screen and (min-width: 800px){
+    .reviewBlock {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .reviews {
+        width: 50%;
+        margin-right: 15px;
+    }
+    .quote {
+        width: 50%;
+        height: 65px;
+        margin-left: 15px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .hed {
+        font-size: 1.15rem;
+    }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "The Afternoon Delight",
+        "desc": "The flagship banana, the captain banana, the grand tour: All 3 dips swirled together and topped with nuts and graham crackers."
+    },
+    {
+        "id": 2,
+        "name": "The Cookie Crumble",
+        "desc": "Oreos + chocolate chip mingle for your amusement. Your choice of dip."
+    },
+    {
+        "id": 3,
+        "name": "The Joe Banana",
+        "desc": "Crushed coffee beans on a banana! Whoa! Exciting! This will make you have a good day! You won’t be able to use any punctuation! (approximately one step down from delivering caffeine intravenously). Toffee and Cinnamon included upon request - our version of cream and sugar."
+    },
+    {
+        "id": 4,
+        "name": "Peanut Butter Pie Banana",
+        "desc": "Dipped in vegan chocolate, topped with creamy peanut butter over a graham cracker base."
+    },
+    {
+        "id": 5,
+        "name": "The Milly Vanilly",
+        "desc": "Vanilla base with a decadent chocolate half-dip on top. Your choice of topping. (also works with other dip choices)"
+    },
+    {
+        "id": 6,
+        "name": "The GOB",
+        "desc": "A celebration of everything revolutionary, irreverent, Arrested Development-al, and excessive. Two whole bananas, stuck together, double-dipped in shining chocolate glory, with extra nuts. This banana will laugh back at you if you can’t finish it. (Rhymes with Lobe)"
+    }
+]

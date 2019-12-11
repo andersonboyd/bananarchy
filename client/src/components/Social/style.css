@@ -1,0 +1,34 @@
+.social-box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.link {
+    padding: 23px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.link a {
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 450px){
+    .social-box {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .link {
+        padding: 20px;
+    }
+
+    .link a{
+        font-size: initial;
+    }
+}

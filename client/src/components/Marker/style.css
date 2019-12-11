@@ -1,0 +1,36 @@
+.markBox{
+    display: inline-flex;
+}
+
+.marker {
+    color: red;
+    background: transparent;
+    font-size: x-large;
+}
+
+.infoBox {
+    width: 8vw;
+    height: 4vh;
+    font-size: 1vw;
+    margin-left: 10px;
+    background: white;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 450px){
+    .marker{
+        font-size: large;
+    }
+
+    .infoBox {
+        width: 24vw;
+        height: 3vh;
+        font-size: 3vw;
+    }
+}

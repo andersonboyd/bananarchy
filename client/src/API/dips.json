@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "ChocoDip",
+        "img": "http://bananarchy.net/blog/wp-content/uploads/dip_chocolate1.jpg",
+        "desc": "Chocolate dipped"
+    },
+    {
+        "id": 2,
+        "name": "PbDip",
+        "img": "http://bananarchy.net/blog/wp-content/uploads/dip_pb1.jpeg",
+        "desc": "Peanut butter dipped"
+    },
+    {
+        "id": 3,
+        "name": "NillaDip",
+        "img": "http://bananarchy.net/blog/wp-content/uploads/dip_white_chocolate1.jpeg",
+        "desc": "Vanilla dipped"
+    },
+    {
+        "id": 4,
+        "name": "VegChocoDip",
+        "img": "http://bananarchy.net/blog/wp-content/uploads/dip_vegan_chocolate1.jpeg",
+        "desc": "Vegan chocolate dipped"
+    }
+]

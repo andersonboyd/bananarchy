@@ -1,0 +1,32 @@
+.form-box {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-group label {
+    padding-right: 10px;
+}
+
+.form-group input {
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .form-box h3 {
+        font-size: 1rem;
+    }
+    .form-group p {
+        font-size: 0.6rem;
+    }
+    .form-group label {
+        font-size: 0.75rem;
+    }
+    .form-group input{
+        height: 25px;
+        font-size: 0.75rem;
+    }
+}

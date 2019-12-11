@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "img": "http://bananarchy.net/blog/wp-content/uploads/2017-04-24-15.24.32-1.jpg",
+        "alt": "banana-1"
+    },
+    {
+        "id": 2,
+        "img": "http://bananarchy.net/blog/wp-content/uploads/2015-09-28-13.59.01.jpg",
+        "alt": "banana-2"
+    },
+    {
+        "id": 3,
+        "img": "http://bananarchy.net/blog/wp-content/uploads/10592762_10152685259969100_4547383964806264272_n-1.jpg",
+        "alt": "banana-3"
+    },
+    {
+        "id": 4,
+        "img": "http://bananarchy.net/blog/wp-content/uploads/2016-07-18-12.06.34-1.jpg",
+        "alt": "banana-4"
+    },
+    {
+        "id": 5,
+        "img": "http://bananarchy.net/blog/wp-content/uploads/2016-07-02-18.50.04-1.jpg",
+        "alt": "banana-5"
+    },
+    {
+        "id": 6,
+        "img": "http://bananarchy.net/blog/wp-content/uploads/2017-05-27-18.08.33-2.jpg",
+        "alt": "banana-6"
+    },
+    {
+        "id": 7,
+        "img": "http://bananarchy.net/blog/wp-content/uploads/IMG_2852.jpg",
+        "alt": "banana-7"
+    },
+    {
+        "id": 8,
+        "img": "http://bananarchy.net/blog/wp-content/uploads/2015-10-29-14.23.59-1.jpg",
+        "alt": "banana-8"
+    }
+]
