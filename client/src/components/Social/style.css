@@ -9,11 +9,48 @@
 .link {
     padding: 23px;
     margin: 0 auto;
+    place-self: center;
     background-color: transparent;
 }
 
 .link a {
     font-size: xx-large;
+}
+
+#fb-icon{
+    color: blue;
+}
+
+#fb-icon:hover{
+    color: darkblue;
+}
+
+.fa-gradient {
+    color: white;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 2%, #fd5949 41%, #d6249f 69%, #285AEB 94%); 
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 2%, #fd5949 41%, #d6249f 69%, #285AEB 94%);
+    padding:0px 1.5px;
+    border-radius: 5px;
+}
+
+.fa-gradient:hover{
+    color: lightgrey;
+}
+
+#tw-icon{
+    color: cyan;
+}
+
+#tw-icon:hover{
+    color: darkcyan;
+}
+
+#yp-icon{
+    color:red;
+}
+
+#yp-icon:hover{
+    color: darkred
 }
 
 @media screen and (max-width: 450px){
